@@ -6,7 +6,7 @@ on:
   schedule:
     # 每天北京时间0:00执行 (UTC+8 = UTC+0-8, 所以0点对应UTC 16点)
     # 注意：schedule 只在默认分支(main)上运行
-    - cron: '0 8 * * *'   # 北京时间 0:00
+    - cron: '37 16 * * *'   # 北京时间 0:00
   workflow_dispatch:
     # 允许手动触发 - 可在任何分支运行
   push:
